@@ -47,14 +47,15 @@ header, nav, hgroup, section, article, aside, figure,  figcaption, audio, video,
 /******************* html end here *******************/
 
 /******************* subscribe start here *******************/
-.sub {background:var(--primary) ; padding: 50px;  }
+.sub {background:var(--primary) ; padding: 50px 10%;  }
 .form-mg {margin-top: ;}
 .input-form {width: 100%;}
-.input-form > .form-control {border-radius:0px !important; height: 78px; }
-.info-btn {height: 78px; background: var(--secondary); border: none; text-align: center; font-family: Roboto; font-weight: bold; font-size: 20px; color: var(--white);  padding: 0 20px; width: 100%; display: block}
+.input-form > .form-control {border-radius:0px !important; height: 48px; }
+.info-btn {height: 48px; background: var(--secondary); border: none; text-align: center; font-family: Roboto; font-weight: bold; font-size: 20px; color: var(--white);  padding: 0 20px; width: 100%; display: block}
 .sub-img {width: auto; overflow: hidden;} 
 .sub-img img {object-fit: cover;} 
 
+/* slider */
 
 
 /******************* subscribe end here *******************/

@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Home</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="images/fav-icon.png" type="image/png">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -29,6 +30,12 @@
 
   <!-- slider -->
   <link rel="stylesheet" href="css/slid.css">
+
+
+  <!-- search -->
+
+  <link rel="stylesheet" href="css/search.css">
+
 </head>
 
 <body>
@@ -42,8 +49,9 @@
           <nav class="navbar navbar-dark  indigo darken-2">
 
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="images/logo-h.png" alt=""></a>
             <div class="inner-nav">
+
               <nav>
                 <ul>
                   <li><a href="">Pregnancy</a></li>
@@ -53,11 +61,39 @@
                   <li><a href="">Health</a></li>
                 </ul>
               </nav>
+              <button type="button" class="search-open">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
             </div>
-            <div class="search">
+
+            <!-- start search -->
+            <!-- <div class="search">
               <input type="text" placeholder="Search">
               <button class="search-btn"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
-            </div>
+            </div> -->
+            <!-- end search -->
+
+
+            <!-- new searcha -->
+
+
+            <!-- <div class="">
+              <div class="close-btn">
+                <span class="fas fa-times"></span>
+             </div>
+             <div class="wrapper">
+                <div class="search-btn">
+                   <span class="fas fa-search"></span>
+                </div>
+                <div class="search-data">
+                   <input type="text" required>
+                   <div class="line"></div>
+                   <label>Type to search..</label>
+                   <span class="fas fa-search"></span>
+                </div>
+             </div>
+            </div> -->
+            <!-- new searcha -->
             <!-- Collapse button -->
             <button class="navbar-toggler third-button" type="button" data-toggle="collapse"
               data-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22" aria-expanded="false"
@@ -66,7 +102,7 @@
             </button>
 
             <!-- Collapsible content -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent22">
               <div class="row ">
                 <!-- link 1 -->
                 <div class="col-lg-3 col-md-6 col-sm-12 link-head">
@@ -145,6 +181,23 @@
 
 
   </header>
+  <div class="">
+    <!-- <button type="button" class="search-open">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </button> -->
+    <div class="search-box">
+      <button type="button" class="search-close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+      </button>
+      <form>
+        <h3>Type here to search</h3>
+        <label>
+          <input type="text" name="search" placeholder="Search...">
+          <button type="submit" class="submit-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </label>
+      </form>
+    </div>
+  </div>
   <!-- new header end here -->
 
 
@@ -157,7 +210,7 @@
 
     <!--------------- trending start here ------------------>
     <section class="trending">
-      <div class="container py-5 ">
+      <div class="container py-4 ">
         <div class="row">
 
           <!-- trend-card 1 -->
@@ -228,7 +281,7 @@
               <!-- blog 1 -->
               <div class="carousel-cell">
                 <div class="container">
-                  <div class="row">
+                  <div class="row  ">
                     <div class="col-lg-6 blog-img p-0">
                       <img src="images\b-1.png" alt="">
                     </div>
@@ -332,7 +385,7 @@
     <!--------------- latest start here ------------------>
 
     <section>
-      <div class="container py-4">
+      <div class="container padding-tb">
         <div class="row">
           <div class="col-lg-12 heading-con">
             <div class="heading-head">Latest Post</div>
@@ -563,27 +616,82 @@
 
     <section class="padding-tb">
       <div class="container">
+        <!-- new section start -->
+        <div class="row">
+          <div class="col-lg-12 post-con">
+
+            <!-- post-1 -->
+            <div class="post">
+              <div class="post-zoom">
+                <img src="images/n-1.png" alt="">
+              </div>
+              <div class="post-head">
+                <h1>7 Core Subjects To Teach Your </h1>
+              </div>
+            </div>
+            <!-- post-1 -->
+
+            <!-- post-2 -->
+            <div class="post">
+              <div class="post-zoom">
+                <img src="images/n-2.png" alt="">
+              </div>
+              <div class="post-head">
+                <h1>7 Ways to Care for Sensitive Skin </h1>
+              </div>
+            </div>
+            <!-- post-2 -->
+
+            <!-- post-3 -->
+            <div class="post">
+              <div class="post-zoom">
+                <img src="images/n-3.png" alt="">
+              </div>
+              <div class="post-head">
+                <h1>4 Common Spine Deformities and How </h1>
+              </div>
+            </div>
+            <!-- post-3 -->
+
+            <!-- post-4 -->
+            <div class="post">
+              <div class="post-zoom">
+                <img src="images/n-4.png" alt="">
+              </div>
+              <div class="post-head">
+                <h1>The Complete Guide to OSHA Bloodborne</h1>
+              </div>
+            </div>
+            <!-- post-4 -->
+
+          </div>
+
+        </div>
+
+        <!-- new section end -->
+
+
         <div class="row">
 
           <!-- blog-coloum 1 -->
-          <div class="col-lg-6 col-sm-12 high-post ">
+          <!-- <div class="col-lg-6 col-sm-12 high-post ">
             <div class="habit">
               <img class="img-fluid" src="images/habit-1.png" alt="">
             </div>
             <div class="blog-head-2">
               <h1>16 Best Multivitamins for Women in India of 2022</h1>
             </div>
-          </div>
+          </div> -->
           <!-- blog-coloum 1 -->
           <!-- blog-coloum 2 -->
-          <div class="col-lg-6 col-sm-12 high-post ">
+          <!-- <div class="col-lg-6 col-sm-12 high-post ">
             <div class="habit">
               <img class="img-fluid" src="images/habit-2.png" alt="">
             </div>
             <div class="blog-head-2">
               <h1>10 Fun and Affordable Hobbies for Your Kid</h1>
             </div>
-          </div>
+          </div> -->
           <!-- blog-coloum 2 -->
 
         </div>
@@ -621,7 +729,7 @@
 
             </div>
           </div>
-          <!-- </div> --> 
+          <!-- </div> -->
 
 
 
@@ -735,7 +843,45 @@
 
     <!--------------- topics end here ------------------>
     <!------------subscribe start here ------------------>
-    <section class="padding-b">
+    <section>
+      <div class="container padding-b2 ">
+        <div class="row">
+          <div class="col-lg-12 sub text-center    ">
+            <div class="heading-white ">
+              <h1>Subscribe To Our
+                Newsletter</h1>
+
+            </div>
+            <p class="pera-grey ">
+              Sing up to stay update with Baby Education, Parenting Tips, Gifts Ideas, Birthday Wishes and many More
+            </p>
+            <div class="pt-5  ">
+              <form class="">
+                <div class="row">
+                  <div class="col input-form">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col input-form">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+                <div class="row pt-4">
+                  <div class="col input-form">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                  </div>
+                </div>
+                <div class="row pt-4">
+                  <div class="col-lg-12">
+                    <button class="info-btn">Subscribe</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="padding-b">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-sm-12 sub ">
@@ -748,7 +894,7 @@
               Sing up to stay update with Baby Education, Parenting Tips, Gifts Ideas, Birthday Wishes and many More
             </p>
 
-            <!-- subscribe form start -->
+          
             <div class="">
               <form class="pt-5">
                 <div class="form-group input-form">
@@ -766,7 +912,7 @@
                 <button class="info-btn">Subscribe</button>
               </form>
             </div>
-                 <!-- subscribe form end -->
+                
           </div>
           <div class="col-lg-6 col-sm-12 p-0  ">
             <div class="sub-img">
@@ -775,7 +921,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!------------subscribe end here ------------------>
 
@@ -788,23 +934,52 @@
   </main>
 
   <footer>
+    <div class="container-fluid social">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 new-social">
+            <ul class="  ">
+              <li><a href=""><img src="images/facebook.png" alt=""></a></li>
+              <li><a href=""><img src="images/instagram.png" "=""></a></li>
+              <li><a href=""><img src=" images/twetter.png" "=""> </a> </li> <li><a href=""><img src="
+                    images/pintrest.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row  ">
+
+
+          <!-- <div class=" col-lg-12 col-md-12 col-sm-12  ">
+            <div class="social-icnon">
+            <ul class=" ">
+              <li><a href=""><img src="images/facebook.png" alt=""></a></li>
+              <li><a href=""><img src="images/instagram.png" "=""></a></li>
+              <li><a href=""><img src=" images/twetter.png" "=""> </a> </li> <li><a href=""><img src="images/pintrest.png" alt=""></a></li>
+            </ul>
+          </div>
+          </div> -->
+
+
+        </div>
+      </div>
+    </div>
     <div class="container padding-tb ">
       <div class="row text-center">
         <div class=" col-lg-12 text-center foot-logo">
-          <img src="images/Mom news today big.png" alt="">
+          <img src="images/logo-f.png" alt="">
         </div>
         <div class="col-lg-12 inner-nav-dark text-center">
-   
-            <nav class="">
-              <ul>
-                <li><a href="">Pregnancy</a></li>
-                <li><a href="">Baby</a></li>
-                <li><a href="">Toddler</a></li>
-                <li><a href="">Parenting</a></li>
-                <li><a href="">Health</a></li>
-              </ul>
-            </nav>
-       
+
+          <nav class="">
+            <ul>
+              <li><a href="">Pregnancy</a></li>
+              <li><a href="">Baby</a></li>
+              <li><a href="">Toddler</a></li>
+              <li><a href="">Parenting</a></li>
+              <li><a href="">Health</a></li>
+            </ul>
+          </nav>
+
         </div>
         <div class="col-lg-12 ft-link  ">
           <ul>
@@ -838,10 +1013,10 @@
       </div>
     </div>
     <!-- Back to top button -->
-<a id="button"></a>
+    <a id="button"></a>
 
   </footer>
-  
+
 
 
   <!-- Optional JavaScript -->
@@ -880,7 +1055,17 @@
   <script type="text/javascript" src="js/back-to-top.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-<!-- scroll -->
+  <!-- search -->
+  <script>
+    $(document).ready(function () {
+      $(".search-open").click(function () {
+        $('.search-box').show();
+      });
+      $(".search-close").click(function () {
+        $('.search-box').hide();
+      });
+    });
+  </script>
 
   <!-- custom js end here -->
 </body>
